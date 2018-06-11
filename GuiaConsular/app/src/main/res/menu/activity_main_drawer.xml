@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/icon_1"
+            android:icon="@mipmap/icon_1"
+            android:title="Rússia: Informações gerais" />
+        <item
+            android:id="@+id/icon_2"
+            android:icon="@mipmap/icon_2"
+            android:title="Planeje-se" />
+        <item
+            android:id="@+id/icon_3"
+            android:icon="@mipmap/icon_3"
+            android:title="Entrada na Rússia" />
+        <item
+            android:id="@+id/icon_4"
+            android:icon="@mipmap/icon_4"
+            android:title="Comportamento e fiscalização" />
+        <item
+            android:id="@+id/icon_5"
+            android:icon="@mipmap/icon_5"
+            android:title="Dificuldades e apoio consular" />
+        <item
+            android:id="@+id/icon_6"
+            android:icon="@mipmap/icon_6"
+            android:title="Saída da Rússia" />
+        <item
+            android:id="@+id/icon_7_1"
+            android:icon="@mipmap/icon_7"
+            android:title="Informações e contatos - 1" />
+        <item
+            android:id="@+id/icon_7_2"
+            android:icon="@mipmap/icon_7"
+            android:title="Informações e contatos - 2" />
+        <item
+            android:id="@+id/icon_7_3"
+            android:icon="@mipmap/icon_7"
+            android:title="Informações e contatos - 3" />
+        <item
+            android:id="@+id/icon_8"
+            android:icon="@mipmap/icon_8"
+            android:title="Números de emergência" />
+        <item
+            android:id="@+id/icon_9"
+            android:icon="@mipmap/icon_9"
+            android:title="Frases em Russo" />
+        <item
+            android:id="@+id/icon_10"
+            android:icon="@mipmap/icon_10"
+            android:title="Calendário dos jogos" />
+        <item
+            android:id="@+id/icon_11"
+            android:icon="@mipmap/icon_11"
+            android:title="Artes mirins" />
+
+        <item
+            android:id="@+id/icon_12"
+            android:icon="@mipmap/icon_12"
+            android:title="Sobre" />
+        <item
+            android:id="@+id/icon_share"
+            android:icon="@mipmap/icon_share"
+            android:title="Compartilhar" />
+
+    </group>
+
+
+</menu>

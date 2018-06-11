@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_pressed="true">
+    <shape
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <corners
+            android:radius="2dp"
+            />
+        <solid
+            android:color="@color/vermelho_icon"
+            />
+        <padding
+            android:left="0dp"
+            android:top="0dp"
+            android:right="0dp"
+            android:bottom="0dp"
+            />
+        <size
+            android:width="110dp"
+            android:height="110dp"
+            />
+        <!--/Borda-->
+        <stroke
+            android:width="4dp"
+            android:color="@color/vermelho_icon"
+            />
+    </shape>
+
+</item><!-- pressed -->
+<item android:state_focused="true">
+    <shape
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <corners
+            android:radius="2dp"
+            />
+        <solid
+            android:color="@color/vermelho_icon"
+            />
+        <padding
+            android:left="0dp"
+            android:top="0dp"
+            android:right="0dp"
+            android:bottom="0dp"
+            />
+        <size
+            android:width="110dp"
+            android:height="110dp"
+            />
+        <!--/Borda-->
+        <stroke
+            android:width="4dp"
+            android:color="@color/vermelho_icon"
+            />
+    </shape>
+</item><!-- focused -->
+
+<item>
+    <shape
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <corners
+            android:radius="2dp"
+            />
+        <solid
+            android:color="@color/transparente"
+            />
+        <padding
+            android:left="0dp"
+            android:top="0dp"
+            android:right="0dp"
+            android:bottom="0dp"
+            />
+        <size
+            android:width="110dp"
+            android:height="110dp"
+            />
+        <!--/Borda-->
+        <stroke
+            android:width="4dp"
+            android:color="@color/vermelho_icon"
+            />
+    </shape>
+
+</item><!-- default -->
+</selector>
